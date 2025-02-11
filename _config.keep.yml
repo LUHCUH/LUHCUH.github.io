@@ -1,0 +1,92 @@
+
+inject:
+  enable: true
+  css:
+    - /css/global.css
+    - /css/1.css
+    # - ...
+
+base_info:
+  title: LUHCUH's Blog
+  author: LUHCUH
+  avatar: https://image-1311841823.cos.ap-beijing.myqcloud.com/selfinfo/avatar.png
+  logo: https://image-1311841823.cos.ap-beijing.myqcloud.com/selfinfo/avatar.png
+  favicon: https://image-1311841823.cos.ap-beijing.myqcloud.com/selfinfo/avatar.png
+
+menu:
+  home: / || fa-solid fa-home                         # 首页
+  archives: /archives || fa-solid fa-box-archive      # 归档
+  tags: /tags || fa-solid fa-tags                     # 标签
+  categories: /categories || fa-solid fa-layer-group  # 分类
+  links: /links || fa-solid fa-link                   # 链接
+  # about: /about || fa-solid fa-user-graduate          # 关于
+  # photos: /photos || fa-solid fa-image                # 相册
+
+first_screen:
+  enable: true        # Option values: true | false
+  background_img: /images/bg.svg
+  background_img_dark: /images/bg.svg
+  # description: Keep writing and Keep loving.
+  hitokoto: true      # Option values: true | false
+
+social_contact:
+  enable: false      # Option values: true | false
+  links:
+    # github:          # GitHub
+    # weixin:          # WeChat
+    # qq: '2254502134'             # QQ
+    # weibo:           # WeiBo
+    # zhihu:           # ZhiHu
+    # twitter:         # Twitter
+    # x:               # X
+    # facebook:        # Facebook
+    # email: 'lstmylst@outlook.com'           # Email
+
+scroll:
+  percent: true
+  progress_bar: true
+
+home:
+  # announcement:
+  category: true           # Option values: true | false
+  tag: true                # Option values: true | false
+  post_datetime: updated    # Option values: updated | created
+  post_datetime_format: ago # Option values: ago | YYYY-MM-DD HH:mm:ss
+
+post:
+  author_badge:
+    enable: true         # Option values: true | false
+    level_badge: true    # Option values: true | false
+    # custom_badge: ["One", "Two", "Three"]
+
+  word_count:
+    wordcount: true     # Word count, one article. Option values: true | false
+    min2read: true      # Time to read, one article. Option values: true | false
+
+  datetime_format: "YYYY-MM-DD HH:mm:ss"  # Datetime format. e.g. "YYYY-MM-DD HH:mm:ss"
+
+  copyright_info: true  # Option values: true | false
+
+  share: true           # Option values: true | false
+
+  reward:
+    enable: false        # Option values: true | false
+    img_link:            # Image link for the payment QR code
+    text:                # Custom reward text, Can be null
+
+toc:
+  enable: true      # Option values: true | false
+  number: false      # Option values: true | false
+  expand_all: false  # Option values: true | false
+  init_open: true    # Option values: true | false
+  layout: right      # Option values: left | right
+
+local_search:
+  enable: true      # Option values: true | false
+  preload: true     # Preload the search data when the page loads
+
+code_block:
+  tools:
+    enable: true             # Option values: true | false
+    style: default            # Option values: default | mac
+  highlight_theme: default    # Option values: default | obsidian

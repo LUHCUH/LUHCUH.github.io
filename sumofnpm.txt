@@ -1,0 +1,4 @@
+npm install hexo-wordcount
+npm install --save hexo-blog-encrypt
+npm install hexo-filter-mathjax
+npm install hexo-all-minifier

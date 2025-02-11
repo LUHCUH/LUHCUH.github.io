@@ -1,0 +1,12 @@
+/* 注入 CSS 文件修改 CSS 变量使用示例 */
+
+:root {
+    /* 修改全局默认字体大小 */
+    --base-font-size: 18px;
+
+    /* 修改全局默认字体样式 */
+    --base-font-family: STHeiti;
+
+    /* 设置页面内容区域的最大宽度（默认 928px） */
+    --page-content-max-width: 1000px;
+ }
